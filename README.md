@@ -7,9 +7,9 @@
 
 
 * state: [(해당 주식 갯수, 해당 주식 1주당 가격), 계좌 잔액]
-> action: sell(0), hold(1), buy(2)
-> reward: 보상을 주는 policy는 다양하게 상황에 맞게 정의함
+* action: sell(0), hold(1), buy(2)
+* reward: 보상을 주는 policy는 다양하게 상황에 맞게 정의함
 
->> action이후의 포트폴리오의 가치가 높으면 +1, 낮으면 -1 feedback
->> action이후의 포트폴리오의 가치가 높으면 +1, 낮으면 -100 feedback
->> action이후의 포트폴리오의 가치의 차이만큼 feedback  
+> action이후의 포트폴리오의 가치가 높으면 +1, 낮으면 -1 feedback
+> action이후의 포트폴리오의 가치가 높으면 +1, 낮으면 -100 feedback
+> action이후의 포트폴리오의 가치의 차이만큼 feedback  
