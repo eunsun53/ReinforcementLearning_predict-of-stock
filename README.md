@@ -1,5 +1,8 @@
 # ReinforcementLearning_predict-of-stock
 
+- 프로젝트 개요: 강화학습에 대한 이해도를 높이고자 주식 예측 학습 진행 
+
+
 * model- free RL, Q-Learning 적용
   : agent가 (state, action) 에 따른 reward로 피드백을 받아 최대의 보상을 받을 수 있도록 Q 함수를 업데이트 할 수 있도록 policy를 찾아내도록 하는 것
   
